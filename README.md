@@ -16,5 +16,3 @@
   - Presentation Ready "Application" components are stored in the application-components folder
   - Presentation Ready "Marketing" components are stored in the page-components folder
   - Inside each component folder, individual components are first sorted according to function, and then according to a descriptive name.
-# tailwind-starter
-# tailwind-starter
