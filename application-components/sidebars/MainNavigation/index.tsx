@@ -38,7 +38,7 @@ export default function index({ color }: Props): ReactElement {
   const path = useRouter().pathname.slice(1, useRouter().pathname.length);
   return (
     <>
-      <div className="flex flex-col flex-grow pt-5 pb-4 overflow-y-auto ">
+      <div className="fixed flex flex-col flex-grow max-h-full pt-5 pb-4 overflow-y-auto ">
         <div className="flex items-center flex-shrink-0 pl-4">
           <img
             className="w-auto h-8"
@@ -66,11 +66,11 @@ export default function index({ color }: Props): ReactElement {
         </nav>
       </div>
 
-      <div className="absolute flex flex-col flex-grow-0 w-64 pt-4 pb-8 border-t bg-gray-50 bottom-1">
+      <div className="fixed flex flex-col flex-grow-0 w-64 pt-4 pb-8 border-t bg-gray-50 bottom-1">
         <div className="px-4">
           <MenuItem
             name="Subscription"
-            icon={CogIcon}
+            icon={CreditCardIcon}
             href={"/subscription"}
             color={color}
             current={"subscription" === path}

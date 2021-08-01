@@ -1,5 +1,5 @@
 import React, { ReactElement } from "react";
-import Heading from "../../../components/pageHeadings/SimpleWithActions";
+import Heading from "../../../components/pageHeadings/SimpleWithActionText";
 import CardBody from "../../../components/shells/CardBasic";
 import RightAlign from "../../../components/shells/FullWidthRightAlign";
 import DateSelector from "../../../components/buttons/ButtonGroup";

@@ -12,7 +12,7 @@ const Index: React.FC<Props> = ({ children }) => {
   const [Navigation, LeftMenu, Content, RightMenu] = children;
   return (
     <>
-      <div className="relative flex flex-col min-h-screen">
+      <div className="relative flex flex-col max-h-screen min-h-screen">
         {Navigation}
 
         {/* 2 column wrapper */}
@@ -23,7 +23,7 @@ const Index: React.FC<Props> = ({ children }) => {
           </div>
 
           <div className="w-full bg-white lg:min-w-0 lg:flex-nowrap">
-            <div className="h-full px-4 py-6 sm:px-6 lg:px-8">{Content}</div>
+            <div className="px-4 py-6 sm:px-6 lg:px-8">{Content}</div>
           </div>
         </div>
       </div>

@@ -2,7 +2,14 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        "spin-slow": "spin 60s linear infinite",
+      },
+      height: {
+        screenLessHeader: "calc(100% - 64px)",
+      },
+    },
   },
   variants: {
     extend: {},

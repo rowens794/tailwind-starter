@@ -53,7 +53,7 @@ export default function index({ colors }: Props): ReactElement {
   const [color, secondaryColor] = colors;
 
   return (
-    <header>
+    <header className="fixed top-0 z-50 w-screen">
       <Popover className="relative bg-white">
         {({ open }) => (
           <>

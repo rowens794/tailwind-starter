@@ -14,7 +14,7 @@ export default function index({}: Props): ReactElement {
     <TwoColumnShell>
       <Navigation color={themeColor} />
       <AppNavigation color={themeColor} />
-      <Content color={themeColor} />
+      <Content color={themeColor} currentPlan={"startup"} />
     </TwoColumnShell>
   );
 }
